@@ -10,7 +10,7 @@ I was working recently on an Excel application and decided to use an HTML file t
 In retrospect, it would have been quicker to manually generate them, but maybe this will come in handy for someone else.
 
 To use the app, just pass the name of the directory containing the image files. For each .png file in the directory, an html image tag will be generated as follows:<br/>
-&lt;img src="data:image/png;base64,[base 64 string]"&gt;<br/>
+*&lt;img src="data:image/png;base64,[base 64 string]"&gt;*<br/>
  and the tag will be written to a file called<br/> *[source&nbsp;file]_base64.txt*
 
 Caution: If the destination file already exists, it will be overwritten without warning.
