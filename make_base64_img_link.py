@@ -5,8 +5,11 @@ Create base64 links from image files, suitable for
 embedding in an html file.
 
 Takes a directory name as an argument. For each
-image file (.jpg, .jpeg, .png), creates a
-text file called <infile name>_base64.txt
+PNG file, creates a
+text file called <infile name>_base64.txt, containing
+an img tag suitable for pasting into html code.
+
+Copyright 2019 by Tony Rein
 
 uses:
 base64
